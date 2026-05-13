@@ -1,0 +1,7 @@
+# Room to read policy rules from. Must be a room ID, not an alias.
+source_room: "!REPLACE_ME:example.org"
+
+# Room to mirror policy rules into. Must be a room ID, not an alias.
+# The bot must be joined here with enough power level to send
+# m.policy.rule.* state events (usually moderator/admin).
+destination_room: "!REPLACE_ME:example.org"
